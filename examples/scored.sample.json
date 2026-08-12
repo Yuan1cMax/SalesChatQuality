@@ -1,0 +1,42 @@
+{
+  "collected_at": "2026-08-01T10:00:00+08:00",
+  "source": "anonymized-demo",
+  "conversations": [
+    {
+      "index": 1,
+      "status": "ok",
+      "messages": [
+        {
+          "role": "buyer",
+          "timestamp": "2026-08-01 10:00:00",
+          "text": "请问这个服务今天可以安排吗？"
+        },
+        {
+          "role": "agent",
+          "timestamp": "2026-08-01 10:00:13",
+          "text": "可以，我先帮您确认今天的可用时间。",
+          "response_seconds": 13,
+          "response_band": "回复慢"
+        },
+        {
+          "role": "buyer",
+          "timestamp": "2026-08-01 10:01:00",
+          "text": "下午三点可以吗？"
+        },
+        {
+          "role": "agent",
+          "timestamp": "2026-08-01 10:01:10",
+          "text": "可以，请确认联系人称呼，我为您登记。",
+          "response_seconds": 10,
+          "response_band": "正常"
+        }
+      ],
+      "slow_threshold_seconds": 10,
+      "latency_summary": {
+        "count": 2,
+        "average_seconds": 11.5,
+        "max_seconds": 13
+      }
+    }
+  ]
+}

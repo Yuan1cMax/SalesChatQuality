@@ -1,0 +1,19 @@
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Runtime evidence can contain private customer-service data.
+conversations.json
+scored_conversations.json
+evaluation_prompt.txt
+conversation-*.png
+*-page-debug.png
+*-page-debug.txt
+reports/
+output/
+

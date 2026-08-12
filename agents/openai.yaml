@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Chat Quality"
+  short_description: "Audit support chats with traceable evidence"
+  default_prompt: "Use $sales-chat-quality to collect read-only chat evidence, score response latency, and prepare a traceable quality report."
